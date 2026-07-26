@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TSA OBHS — Olentangy Berlin High School's Technology Student Association chapter. Compete, innovate, and lead in STEM.">
+  <title>TSA OBHS | Olentangy Berlin High School</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+      <a href="#home" class="navbar__brand">
+        <img src="assets/tsa-logo.png" alt="TSA Logo" class="navbar__logo" width="44" height="44">
+        <span class="navbar__wordmark">TSA <span class="navbar__wordmark-accent">OBHS</span></span>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu" aria-label="Main navigation">
+        <ul class="navbar__links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#events" class="nav-link">Events</a></li>
+          <li><a href="#competition" class="nav-link">States &amp; Nationals</a></li>
+          <li><a href="#announcements" class="nav-link">Announcements</a></li>
+          <li><a href="#prep" class="nav-link">Prep Materials</a></li>
+          <li><a href="#join" class="nav-link">Join Us</a></li>
+        </ul>
+        <!-- PLACEHOLDER: Insert GroupMe invite link here -->
+        <a href="#" class="btn btn--groupme navbar__cta-mobile" data-placeholder="true" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+          Join Our GroupMe
+        </a>
+      </nav>
+
+      <!-- PLACEHOLDER: Insert GroupMe invite link here -->
+      <a href="#" class="btn btn--groupme navbar__cta" data-placeholder="true" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+        Join Our GroupMe
+      </a>
+
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__gradient"></div>
+        <div class="hero__grid"></div>
+        <div class="hero__particles">
+          <span class="hero__particle"></span>
+          <span class="hero__particle"></span>
+          <span class="hero__particle"></span>
+          <span class="hero__particle"></span>
+          <span class="hero__particle"></span>
+          <span class="hero__particle"></span>
+        </div>
+        <div class="hero__float-icons" aria-hidden="true">
+          <i class="fa-solid fa-microchip hero__float-icon hero__float-icon--1"></i>
+          <i class="fa-solid fa-robot hero__float-icon hero__float-icon--2"></i>
+          <i class="fa-solid fa-code hero__float-icon hero__float-icon--3"></i>
+          <i class="fa-solid fa-gears hero__float-icon hero__float-icon--4"></i>
+        </div>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__logo-wrap reveal">
+          <img src="assets/tsa-logo.png" alt="Technology Student Association" class="hero__logo" width="120" height="120">
+        </div>
+        <p class="hero__eyebrow reveal">Technology Student Association</p>
+        <h1 class="hero__title reveal">TSA <span class="text-gradient">OBHS</span></h1>
+        <p class="hero__subtitle reveal">Olentangy Berlin High School's chapter of the Technology Student Association </p>
+        <div class="hero__actions reveal">
+          <a href="#join" class="btn btn--primary btn--lg">
+            <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
+            Join Us
+          </a>
+          <a href="#about" class="btn btn--outline btn--lg">
+            <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+            Learn About TSA
+          </a>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll-hint" aria-label="Scroll to About section">
+        <span>Scroll</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ========== ABOUT / WHAT IS TSA ========== -->
+    <section class="section section--about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title">What is TSA?</h2>
+        </div>
+
+        <div class="about-content reveal">
+          <p>The Technology Student Association (TSA) is a national, non-profit organization of more than 300,000 middle and high school students engaged in science, technology, engineering, and mathematics (STEM). Almost 5,000,000 student members have participated in TSA since 1978 through challenging competitions, leadership opportunities, and community service.</p>
+        </div>
+
+        <!-- Leadership -->
+        <div class="leadership reveal">
+          <h3 class="subsection-title">
+            <i class="fa-solid fa-users" aria-hidden="true"></i>
+            Leadership
+          </h3>
+          <div class="leadership__grid">
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">HB</div>
+              <h4 class="leader-card__name">Harswith Buchireddy</h4>
+              <p class="leader-card__role">Founder &amp; President</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">AC</div>
+              <h4 class="leader-card__name">Arnav Chandravanshi</h4>
+              <p class="leader-card__role">Vice President</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">SR</div>
+              <h4 class="leader-card__name">Suhas Ralabhandi</h4>
+              <p class="leader-card__role">Secretary</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">SV</div>
+              <h4 class="leader-card__name">Siddharth Vadlapudi</h4>
+              <p class="leader-card__role">Treasurer</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">SS</div>
+              <h4 class="leader-card__name">Saransh Saxena</h4>
+              <p class="leader-card__role">Reporter</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">SK</div>
+              <h4 class="leader-card__name">Shubh Konar</h4>
+              <p class="leader-card__role">Sergeant At Arms</p>
+            </article>
+
+            <article class="leader-card">
+              <div class="leader-card__avatar" aria-hidden="true">AK</div>
+              <h4 class="leader-card__name">Arav Katta</h4>
+              <p class="leader-card__role">Director of Outreach</p>
+            </article>
+
+          </div>
+
+          <div class="info-strip reveal">
+            <div class="info-strip__item">
+              <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>
+              <div>
+                <strong>Club Advisor</strong>
+                <span>Ms. Keplinger</span>
+              </div>
+            </div>
+            <div class="info-strip__item">
+              <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+              <div>
+                <strong>Meetings</strong>
+                <span>Meeting day, time, and location: To Be Announced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EVENTS ========== -->
+    <section class="section section--events" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Compete</span>
+          <h2 class="section-title">Competitive Events</h2>
+          <p class="section-desc">TSA members compete in a wide variety of STEM-related events, from coding and engineering design to leadership and public speaking.</p>
+        </div>
+
+        <div class="events-cta reveal">
+          <a href="https://tsaweb.org/competitions#highschool" class="events-link-card" target="_blank" rel="noopener noreferrer">
+            <div class="events-link-card__icon">
+              <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </div>
+            <div class="events-link-card__content">
+              <h3>View Official Event List</h3>
+              <p>Browse the full catalog of competitive events on TSA's National Website</p>
+            </div>
+            <i class="fa-solid fa-chevron-right events-link-card__arrow" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATES & NATIONALS ========== -->
+    <section class="section section--competition" id="competition">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">The Journey</span>
+          <h2 class="section-title">How Competition Works</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__step reveal">
+            <div class="timeline__marker">
+              <span class="timeline__number">1</span>
+              <i class="fa-solid fa-flask" aria-hidden="true"></i>
+            </div>
+            <div class="timeline__content">
+              <h3>Chapter Level</h3>
+              <p>Members prepare and compete in their chosen events, building skills and refining projects throughout the school year.</p>
+            </div>
+          </article>
+
+          <article class="timeline__step reveal">
+            <div class="timeline__marker">
+              <span class="timeline__number">2</span>
+              <i class="fa-solid fa-flag-usa" aria-hidden="true"></i>
+            </div>
+            <div class="timeline__content">
+              <h3>State Conference</h3>
+              <p>Because there are only a small number of TSA chapters in the Columbus, Ohio area, TSA OBHS competes directly at the State level, there is no regional round. State conference details are TBA and will be announced when released.</p>
+            </div>
+          </article>
+
+          <article class="timeline__step reveal">
+            <div class="timeline__marker">
+              <span class="timeline__number">3</span>
+              <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+            </div>
+            <div class="timeline__content">
+              <h3>National Conference</h3>
+              <p>Top-placing competitors at States qualify for Nationals based on that year's placement guidelines for each event.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="nationals-card reveal">
+          <div class="nationals-card__badge">
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            Nationals 2026
+          </div>
+          <div class="nationals-card__body">
+            <div class="nationals-card__info">
+              <h3>
+                <i class="fa-solid fa-palm-tree" aria-hidden="true"></i>
+                National TSA Conference
+              </h3>
+              <ul class="nationals-card__details">
+                <li>
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  <span><strong>Location:</strong> Rosen Shingle Creek Resort, Orlando, Florida</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+                  <span><strong>Theme:</strong> "Forward To Fifty"</span>
+                </li>
+              </ul>
+            </div>
+            <div class="nationals-card__accent" aria-hidden="true">
+              <div class="nationals-card__sun"></div>
+              <i class="fa-solid fa-sun nationals-card__sun-icon"></i>
+              <i class="fa-solid fa-palm-tree nationals-card__palm"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ANNOUNCEMENTS ========== -->
+    <section class="section section--announcements" id="announcements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Stay Updated</span>
+          <h2 class="section-title">Announcements</h2>
+        </div>
+
+        <!-- Rendered dynamically from script.js -->
+        <div class="announcements-grid" id="announcements-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ========== PREP MATERIALS ========== -->
+    <section class="section section--prep" id="prep">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Resources</span>
+          <h2 class="section-title">Preparation Materials</h2>
+        </div>
+
+        <div class="coming-soon reveal">
+          <div class="coming-soon__icon-wrap">
+            <i class="fa-solid fa-hard-hat coming-soon__icon" aria-hidden="true"></i>
+          </div>
+          <h3>Coming Soon</h3>
+          <p>Work in Progress. Check back soon!</p>
+
+          <div class="coming-soon__grid">
+            <div class="coming-soon__card"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Software Dev</span></div>
+            <div class="coming-soon__card"><i class="fa-solid fa-drafting-compass" aria-hidden="true"></i><span>Engineering Design</span></div>
+            <div class="coming-soon__card"><i class="fa-solid fa-video" aria-hidden="true"></i><span>Digital Media</span></div>
+            <div class="coming-soon__card"><i class="fa-solid fa-microphone" aria-hidden="true"></i><span>Leadership</span></div>
+            <div class="coming-soon__card"><i class="fa-solid fa-print" aria-hidden="true"></i><span>3D Animation</span></div>
+            <div class="coming-soon__card"><i class="fa-solid fa-bolt" aria-hidden="true"></i><span>Electronics</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== JOIN US ========== -->
+    <section class="section section--join" id="join">
+      <div class="container">
+        <div class="join-card reveal">
+          <div class="join-card__content">
+            <span class="section-label section-label--light">Get Involved</span>
+            <h2 class="join-card__title">Join TSA OBHS</h2>
+            <p class="join-card__desc">Ready to compete, lead, and innovate? Join our GroupMe to stay connected with meeting updates, event prep, and chapter news.</p>
+            <!-- PLACEHOLDER: Insert GroupMe invite link here -->
+            <a href="#" class="btn btn--groupme btn--lg" data-placeholder="true" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+              Join Our GroupMe
+            </a>
+          </div>
+          <div class="join-card__visual" aria-hidden="true">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/tsa-logo.png" alt="" class="footer__logo" width="36" height="36" aria-hidden="true">
+        <span>TSA OBHS</span>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#competition">States &amp; Nationals</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#prep">Prep Materials</a>
+        <a href="#join">Join Us</a>
+      </nav>
+
+      <p class="footer__copy">&copy; 2026 TSA OBHS — Olentangy Berlin High School Technology Student Association</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
